@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// variables
+
+$primary-background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+$secondary-background: linear-gradient(rgba(26, 87, 95, 0.527), rgba(21, 28, 65, 0.39));
+$primary-text: #fff;
+$primary-font: 'Source Sans Pro', sans-serif;
+$primary-border: 2px solid white;
+$secondary-border: 1px solid white;
+$breakpoints: (
+  mobile: 768px,
+  laptop: 1240px,
+  desktop-lg: 1800px
+);
+
+
+//General config
+body {
+    background: $primary-background;
+    font-family: $primary-font;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge*/
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
